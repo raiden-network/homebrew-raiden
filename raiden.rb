@@ -8,8 +8,7 @@ class Raiden < Formula
   depends_on :macos => :el_capitan
 
   def install
-    # Homebrew extracts the file after download but keeps the extension - WTF?
-    mv "raiden-v0.6.0-macOS.zip", "raiden"
+    mv "raiden-v0.6.0-macOS", "raiden"
     bin.install "raiden"
   end
 
