@@ -3,7 +3,7 @@ class Raiden < Formula
   homepage "https://github.com/raiden-network/homebrew-raiden"
   url "https://github.com/raiden-network/raiden/releases/download/v0.200.0-rc5/raiden-v0.200.0-rc5-macOS-x86_64.zip"
   version "v0.200.0-rc5"
-  sha256 "90df67ab90d32b670dfda867fa3442b780b473e6f824859cd631f266758592ef"
+  sha256 "e5b8d44590e1e735fee359cb58a608038311c32d33e22da6db6211cc22237e8c"
 
   depends_on :macos => :el_capitan
 
