@@ -8,7 +8,7 @@ class Raiden < Formula
   depends_on :macos => :el_capitan
 
   def install
-    mv "raiden-v1.1.0macOS-x86_64", "raiden"
+    mv "raiden-v1.1.0-macOS-x86_64", "raiden"
     bin.install "raiden"
   end
 
