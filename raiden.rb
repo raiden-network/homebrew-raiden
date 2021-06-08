@@ -4,14 +4,14 @@
 class Raiden < Formula
   desc "Raiden Network"
   homepage "https://github.com/raiden-network/homebrew-raiden"
-  url "https://github.com/raiden-network/raiden/releases/download/v2.0.0rc3/raiden-v2.0.0rc3-macOS-x86_64.zip"
-  version "v2.0.0rc3"
-  sha256 "2684b2d32491f674015baea2efe50f8f43315dc4c701d83d5ea0910e7386d016"
+  url "https://github.com/raiden-network/raiden/releases/download/v2.0.0rc4/raiden-v2.0.0rc4-macOS-x86_64.zip"
+  version "v2.0.0rc4"
+  sha256 "20a91027df090e3b0eedeea998e2ea2efaf7e3c9134c1f3612a3aea0e172753e"
 
   depends_on :macos => :el_capitan
 
   def install
-    mv "raiden-v2.0.0rc3-macOS-x86_64", "raiden"
+    mv "raiden-v2.0.0rc4-macOS-x86_64", "raiden"
     bin.install "raiden"
   end
 
